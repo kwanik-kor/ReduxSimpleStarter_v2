@@ -17,6 +17,7 @@ class BookDetail extends Component {
     }
 }
 
+// State를 가져와서 Props로 사용
 const mapStateToProps = (state) => {
     return {
         book: state.activeBook,
